@@ -1,0 +1,28 @@
+* {
+	font-family: 'Inter', sans-serif;
+}
+
+body, main {
+	margin: 0;
+	padding: 0;
+    background-color: hsl(var(--color-neutral-5));
+}
+
+.twoColumns > div {
+	max-width: 30%;
+}
+
+.twoColumns > div > div > input {
+	width: 80%;
+}
+
+@media (max-width: 525px) {
+    .twoColumns {
+        flex-direction: column;
+    }
+    
+    .twoColumns > div {
+        max-width: 80%;
+    }
+    
+}
