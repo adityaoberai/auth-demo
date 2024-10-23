@@ -2,10 +2,11 @@
 	font-family: 'Inter', sans-serif;
 }
 
-body, main {
+body,
+main {
 	margin: 0;
 	padding: 0;
-    background-color: hsl(var(--color-neutral-5));
+	background-color: hsl(var(--color-neutral-5));
 }
 
 .twoColumns > div {
@@ -17,12 +18,11 @@ body, main {
 }
 
 @media (max-width: 525px) {
-    .twoColumns {
-        flex-direction: column;
-    }
-    
-    .twoColumns > div {
-        max-width: 80%;
-    }
-    
+	.twoColumns {
+		flex-direction: column;
+	}
+
+	.twoColumns > div {
+		max-width: 80%;
+	}
 }
