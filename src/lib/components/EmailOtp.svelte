@@ -26,7 +26,7 @@
 	}
 </script>
 
-<section id="emailotp" class="authContainer twoColumn u-flex u-gap-32 container">
+<section id="emailotp" class="authContainer twoColumns u-flex u-gap-32 container">
 	<div id="createotp" class="u-flex-vertical u-gap-16 u-main-center container">
 		<h2 class="heading-level-4">Create OTP</h2>
 		<form class="u-flex-vertical u-gap-8" on:submit={createEmailOtp}>

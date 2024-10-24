@@ -81,7 +81,6 @@
 	@media (max-width: 1000px) {
 		#auth {
 			width: 80vw;
-			height: 80vh;
 		}
 	}
 </style>

@@ -27,9 +27,9 @@
 	}
 </script>
 
-<section id="emailpassword" class="authContainer twoColumn u-flex u-gap-32 container">
+<section id="emailpassword" class="authContainer twoColumns u-flex u-gap-32 container">
 	<div id="register" class="u-flex-vertical u-gap-16 u-main-center container">
-		<h2 class="heading-level-3">Register</h2>
+		<h2 class="heading-level-4">Register</h2>
 		<form class="u-flex-vertical u-gap-8" on:submit={registerEmailPassword}>
 			<div>
 				<label for="name">Name</label>
@@ -48,7 +48,7 @@
 	</div>
 
 	<div id="login" class="u-flex-vertical u-gap-16 container">
-		<h2 class="heading-level-3">Login</h2>
+		<h2 class="heading-level-4">Login</h2>
 		<form class="u-flex-vertical u-gap-8" on:submit={loginEmailPassword}>
 			<div>
 				<label for="email">Email</label>

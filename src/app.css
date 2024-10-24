@@ -10,7 +10,7 @@ main {
 }
 
 .twoColumns > div {
-	max-width: 30%;
+	max-width: 70%;
 }
 
 .twoColumns > div > div > input {
