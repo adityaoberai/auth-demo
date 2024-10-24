@@ -32,7 +32,7 @@
 		<form class="u-flex-vertical u-gap-8" on:submit={createEmailOtp}>
 			<div>
 				<label for="email">Email</label>
-				<input type="email" id="email" name="email" autocomplete="off" required />
+				<input type="email" id="email" name="email" autocomplete="off" placeholder="john.doe@test.com" required />
 			</div>
 			<button class="button" type="submit">Send OTP on email</button>
 		</form>
@@ -42,7 +42,7 @@
 		<form class="u-flex-vertical u-gap-8" on:submit={verifyEmailOtp}>
 			<div>
 				<label for="otp">OTP</label>
-				<input type="text" id="otp" name="otp" autocomplete="off" required />
+				<input type="text" id="otp" name="otp" autocomplete="off" placeholder="123456" required />
 			</div>
 			<button class="button" type="submit">Submit OTP</button>
 		</form>
